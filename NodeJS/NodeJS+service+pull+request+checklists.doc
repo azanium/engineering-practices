@@ -1,0 +1,323 @@
+Date: Wed, 26 Jun 2019 03:53:16 +0000 (UTC)
+Message-ID: <337708923.43.1561521196015@3990d27b3ce7>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_42_135906101.1561521196014"
+
+------=_Part_42_135906101.1561521196014
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>NodeJS service pull request checklists</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>NodeJS service pull request checklists</h1>
+    <div class=3D"Section1">
+        <p>Upon every pull request, any reviewer should perform the followi=
+ng checklists, before merging the request.</p>
+<h2 id=3D"NodeJSservicepullrequestchecklists-PerformUnitTestandIntegrationT=
+est"><span style=3D"color: rgb(255,102,0);">Perform Unit Test and Integrati=
+on Test</span></h2>
+<p><span style=3D"color: rgb(0,0,0);">A valid project must have spec and in=
+tegration test file for every pull request. And the following scripts must =
+be available on the package.json.</span></p>
+<ol>
+<li>validate, this script should check for eslint validity</li>
+<li>test:unit, should parse all *.spec.js files for unit testing</li>
+<li>test:integration, should parse all *.integration.test.js files for inte=
+gration testing</li>
+<li>test, should parse all *.spec.js and *.integration.test.js files for pe=
+rforming both unit and integration test.</li>
+</ol>
+<p>A reviewer should run the following command:</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+<div class=3D"codeContent panelContent pdl">=20
+<pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"brush=
+: bash; gutter: false; theme: Confluence" data-theme=3D"Confluence">$ yarn =
+validate
+$ yarn test</pre>=20
+</div>
+</div>
+<p>All lint rules and all tests must pass, if there's error that is not gen=
+erated intentionally by the unit test even though the tests passes, the tes=
+t considered failed, and request must be rejected.</p>
+<p>The test performed must have code coverage reports in 2 formats:</p>
+<ol>
+<li>lcov file</li>
+<li>text report</li>
+</ol>
+<p>The code coverage must at least reach 90% of all statements and branchin=
+g. Developer can use BDD or TDD.</p>
+<h2 id=3D"NodeJSservicepullrequestchecklists-Manualtestandfuzzthefeature"><=
+span style=3D"color: rgb(255,102,0);">Manual test and fuzz the feature</spa=
+n></h2>
+<p>After the eslint rules, unit tests and integration tests passes. Reviewe=
+r must perform manual test of the feature, by cloning the repo and perform =
+various abusive tests like for example:</p>
+<ul>
+<li>Set numeric parameter to negative minimum number and positive maximum n=
+umber, e.g. -999999999999999, 999999999999999</li>
+<li>Set string parameter to massive characters count, for example put strin=
+g of 1000-2000 characters into the parameter.</li>
+<li>Set the appropriate parameters value to reflect the ideal response.</li=
+>
+</ul>
+<p>After putting those parameters, reviewer must see if the response is a s=
+uitable response based on parameter or not, if not then request must be rej=
+ected.</p>
+<p>Example of suitable response, for example, we have this api:</p>
+<p>POST: http://<a href=3D"http://localhost:5000/api/v1/user/:id" class=3D"=
+external-link" rel=3D"nofollow">localhost:5000/api/v1/</a>demo</p>
+<p>params:&nbsp;type: numeric (0-9), name: string</p>
+<p>Then we give the <strong>type</strong> parameter to 99999999, or -999999=
+9999. The response should say something like validation error or invalid pa=
+rameter.</p>
+<p>And if we give the <strong>name</strong> parameter to string of more tha=
+n 512, the response should say something like validation error, because the=
+ service did the name validation before processing the logic.</p>
+<h2 id=3D"NodeJSservicepullrequestchecklists-Sonarlintrulesmanualcheck"><sp=
+an style=3D"color: rgb(255,102,0);">Sonarlint rules manual check</span></h2=
+>
+<p><span style=3D"color: rgb(0,0,0);">Review should take a look on rules on=
+ sonarlint to check on the pull requests if there's any rule broken.</span>=
+</p>
+<p><span style=3D"color: rgb(0,0,0);">The whole rules can be check on this =
+<a href=3D"https://rules.sonarsource.com/javascript" class=3D"external-link=
+" rel=3D"nofollow">https://rules.sonarsource.com/javascript</a>.</span></p>
+<h2 id=3D"NodeJSservicepullrequestchecklists-Approval"><span style=3D"color=
+: rgb(255,102,0);">Approval</span></h2>
+<p>The following git branch needs to be on PR:</p>
+<ul>
+<li><code>develop</code>, developer can create PR with at least one reviewe=
+r.</li>
+<li><code>master</code>, developer can create PR with 3 reviewers (1 main r=
+eviewer, 2 support reviewers).</li>
+<li>other branches, developer don't need any PR for other than 2 branches.<=
+/li>
+</ul>
+<p>Once all the required steps completed, reviewer can then approve the pul=
+l request, where the lead reviewer then merge, after at least 2 reviews app=
+roval.</p>
+    </div>
+</body>
+</html>
+------=_Part_42_135906101.1561521196014--
